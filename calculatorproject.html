@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+        const a = parseInt(prompt('Enter the first number '));
+      const b=parseInt(prompt('Enter the Second number '));
+      var r = prompt("Enter yout operate :'+','-','*','/' ");
+      const c = a+b;
+      const s = a-b;
+      const w = a*b;
+      const g = a/b;
+      var d = "+";
+      var n = "-";
+      var x  = "*";
+      var t = "/";
+        if (r==d){
+         alert( "Your Answer is " +c)
+        }else if(r==n){
+         alert("Your Answer is " +s)
+        }else if(r==x){
+          alert( "Your Answer is " +w)
+        }else if(r==t){
+         alert("Your Answer is " +g)
+        }else("Syntax Error,Chose following operaters :  '+','-','*','/'")
+        
+    </script>
+</body>
+</html>
